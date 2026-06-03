@@ -31,22 +31,21 @@ print("reverse of list : ",l[::-1])
 print("reversed last 4 elements  of list : ",l[-1:-5:-1])'''
 
 #modifing list
-'''l  = [10,20,30,40,50]
+l  = [10,20,30,40,50]
 A = [10,20,30,40,50]
+print("Original list : ",l)
 a = l.append(60)
+print("adding 60 in list : ",l)
 i = l.insert(6,70)
+print("insert 70 in  list : ",l)
 e = l.extend([80,90,100])
+print("extending 80,90,100 in  list : ",l)
 p = l.pop(9)
+print("popping 9th element from  list : ",l)
 #d = del l[8]
 c = l.clear()
+print("Clearing the entire list : ",l)
 
-print(l)
-#print("adding 15 in 2nd index list : ",l[2]=15)
-print("adding 15 in 2nd index list : ",l)
-print("insert 70 in  list : ",l)
-print("popping 100 from list : ",l)
-#print("Deleting 90 from list : ",l)
-print("Clearing the entire list : ",l)'''
 
 
 #sorting and reversing a list
@@ -57,6 +56,7 @@ print("reverse list : ",sorted(l,reverse = True))
 print("index of 50 in list : ",l.index(50))
 print("count of list : ",l.count(10))
 '''
+'''
 print("adding 200 to copied list ",n.append(200))
 print("Copied list ",n)
 print("original List = ",l)
@@ -65,7 +65,7 @@ print("sum of  List = ",sum(l))
 print("maximum List = ",max(l))
 print("minimum List = ",min(l))
 print("any of true list = ",any(l))
-print("all are true List = ",all(l))
+print("all are true List = ",all(l))'''
 
 
 
