@@ -68,7 +68,7 @@ def details(name,email,password ="Default_9392929"):
     print("Email-Id : ",email)
     print("Password : ",password)
 
-details(name="Vamsi",email="vamsi@gmail.com0")'''
+details(name="Vamsi",email="vamsi@gmail.com0")
 
 
 # 4) Variable length arguments
@@ -77,6 +77,12 @@ def details(*names):
     print("Name : ",names)
 
 details("Vamsi","vamsi@gmail.com0")
+'''
+
+def details(**names):
+    print("Name :",names)
+
+details(j1="Vamsi",j2="vamsi@gmail.com0")
 
 
 
