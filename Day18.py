@@ -32,3 +32,10 @@ l = [1,3,4,22,5,3]
 print(display(1,0))'''
 
 
+def display(l,i):
+    if i == len(l):
+        return 0
+    return l[i]+display(l,i+1)
+
+l = [1,4,3,2,22]
+print(display(l,0))
